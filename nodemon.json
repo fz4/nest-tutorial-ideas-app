@@ -1,0 +1,10 @@
+{
+  "watch": ["dist"],
+  "ext": "js",
+  "exec": "node dist/main",
+  "env": {
+    "PORT": 3000,
+    "NODE_ENV": "development",
+    "TZ": "Asia/Tehran"
+  }
+}
